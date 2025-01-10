@@ -1,0 +1,1211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.go-to-top-container {
+    width: 60px;
+    height: 60px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #ED865D;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.go-to-top-container i {
+    margin-top: 15px;
+    color: white;
+}
+
+.go-to-top-container button {
+    background-color: unset;
+    border: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* .desktop-header */
+
+.desktop-header a {
+    color: black;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.desktop-header {
+    margin-top: 15px;
+    position: relative;
+}
+
+.home>a {
+    text-decoration: underline;
+}
+
+.sub-menu a {
+    color: #555;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #555;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu i {
+    color: #ed865d;
+    font-size: smaller;
+}
+
+.main-menu li {
+    padding-top: 15px;
+}
+
+.has-child {
+    position: relative;
+}
+
+.has-child:hover .sub-menu {
+    display: block;
+}
+
+.join,
+.add {
+    display: flex;
+}
+
+.join:hover a {
+    color: #eb875e;
+    text-decoration: none;
+}
+
+.join:hover i {
+    color: #eb875e;
+    text-decoration: none;
+}
+
+.add:hover a {
+    color: #eb875e;
+    text-decoration: none;
+}
+
+.add:hover i {
+    color: #eb875e;
+    text-decoration: none;
+}
+
+.join {
+    margin-right: 30px;
+}
+
+.login {
+    padding-left: 140px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.main-menu>a,
+.login a {
+    color: black;
+    font-size: 14px;
+}
+
+.login i {
+    margin-right: 3px;
+    font-weight: 100;
+}
+
+.join i {
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.add i {
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+/* slider */
+
+.slider {
+    margin-top: 10px;
+    position: relative;
+}
+
+.slider-caption b {
+    font-weight: 600;
+}
+
+.slider li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.slider img {
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.slider-caption h2 {
+    position: absolute;
+}
+
+/* our choice */
+
+.our-choice {
+    padding-top: 100px;
+    color: black;
+}
+
+.choice-title {
+    text-align: left;
+}
+
+.option {
+    margin-top: 40px;
+}
+
+.choice-title b {
+    font-weight: 600;
+}
+
+.our-choice img {
+    border-radius: 5px;
+    position: relative;
+}
+
+.our-choice .status {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0 5px 5px 0;
+    padding: 3px 13px;
+    margin-top: 20px;
+}
+
+.our-choice .status a {
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.our-choice .status:hover a {
+    color: #eb875e;
+    text-decoration: none;
+}
+
+.card-title a {
+    color: black;
+}
+
+.map a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.map {
+    margin: 13px 0;
+}
+
+.map i {
+    vertical-align: 1px;
+    color: lightgray;
+}
+
+.villas:hover {
+    color: #eb875e;
+}
+
+.brooklyn:hover {
+    color: #eb875e;
+}
+
+.condos:hover {
+    color: #eb875e;
+}
+
+.staten:hover {
+    color: #eb875e;
+}
+
+.our-choice .card-text {
+    font-weight: 300;
+    color: #555;
+}
+
+.our-choice .info {
+    font-weight: 200;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3px;
+    font-size: 15px;
+}
+
+.our-choice .info i {
+    font-size: 20px;
+    color: lightgray;
+    padding: 0 2px;
+}
+
+.has-hr {
+    margin-top: 25px;
+}
+
+/* button */
+
+.browse-more-properties button {
+    background-color: #eb875e;
+    border: none;
+    padding: 15px 25px;
+}
+
+.browse-more-properties button a {
+    color: white;
+    text-decoration: none;
+}
+
+.browse-more-properties button:hover {
+    background-color: #e1774d;
+}
+
+/* Modern spaces and premium design */
+
+.modern-spaces {
+    background-color: #eff9f9;
+    background-image: url(./images/main-home-bg-img-new.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.modern-title h2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: left;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.modern-title b {
+    font-weight: 600;
+}
+
+.modern-title p {
+    color: #555;
+    font-size: small;
+}
+
+.modern-spaces button {
+    background-color: #f7ce5d;
+    border: none;
+    font-weight: 500;
+    padding: 15px 30px;
+    margin: 20px 0;
+}
+
+.modern-spaces button a {
+    color: black;
+    text-decoration: none;
+}
+
+.modern-spaces button:hover {
+    background-color: #f5c150;
+}
+
+/* how it work */
+
+.how-it-works {
+    padding: 130px 0;
+    color: black;
+}
+
+.how-it-works i {
+    font-size: 50px;
+    color: lightgray;
+    margin-bottom: 15px;
+}
+
+.how-it-works p {
+    color: #555;
+    font-size: 15px;
+    font-weight: 300;
+    color: #555;
+}
+
+.work-title b {
+    font-weight: 600;
+}
+
+.how-it-works .tag:last-child {
+    border-right: none;
+}
+
+.how-it-works .tag:first-child {
+    padding-left: 15px;
+}
+
+/* discover a new way of living */
+
+.discover-a-new-way-of-living .title p {
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+
+.discover-a-new-way-of-living form {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 75px;
+}
+
+.discover-a-new-way-of-living .make-an-enquiry p {
+    font-weight: 400;
+    color: #555;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.discover-a-new-way-of-living input {
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.discover-a-new-way-of-living button {
+    background-color: #eb875e;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+}
+
+::placeholder {
+    color: rgb(107, 102, 102);
+    font-weight: 300;
+}
+
+/* our expert will help you make the renovation */
+
+.our-expert {
+    margin-top: 140px;
+    margin-bottom: 160px;
+}
+
+.expert-title {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.expert-title b {
+    font-weight: 600;
+}
+
+.our-expert .info {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.our-expert .text {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.our-expert .info p {
+    color: #555;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.our-expert .info i {
+    color: #555;
+    font-size: 40px;
+}
+
+.our-expert img {
+    border-radius: 5px;
+}
+
+/* explore your home loan options */
+
+.explore-your-home-loan-options {
+    background-color: #eff9f9;
+    margin-top: 100px;
+    background-image: url(./images/main-home-bg-img-new.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.explore-title h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 44px;
+    text-align: left;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.explore-title b {
+    font-weight: 600;
+}
+
+.explore-title p {
+    color: #555;
+    font-weight: 300;
+    font-size: small;
+}
+
+.explore-your-home-loan-options button {
+    background-color: #b4dc81;
+    border: none;
+    font-weight: 500;
+    padding: 15px 30px;
+    margin: 20px 0;
+}
+
+.explore-your-home-loan-options button a {
+    color: black;
+    text-decoration: none;
+}
+
+.explore-your-home-loan-options button:hover {
+    background-color: #99cc5b;
+}
+
+/* about us */
+
+.about-us-title h1 {
+    font-size: 45px;
+}
+
+.about-us-title h1 b {
+    font-weight: 600;
+}
+
+.about-us-infor {
+    margin-left: 5px;
+}
+
+.each-charac-title {
+    margin-top: 10px;
+}
+
+.each-charac-img img {
+    width: 80px;
+
+}
+
+.charac p {
+    font-size: small;
+    display: inline-block;
+}
+
+.charac h6 {
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.charac-text {
+    font-size: small;
+}
+
+.each-charac {
+    margin-top: 70px;
+    padding-right: 50px;
+}
+
+.about-us {
+    position: relative;
+    margin: 50px 0px;
+    padding-top: 50px;
+}
+
+.carousel-indicators.about-us-indicators {
+    position: absolute;
+    top: 100%;
+    padding-right: 50px;
+}
+
+.carousel-indicators.about-us-indicators>li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-color: orange;
+}
+
+/* read our real estate recent news */
+
+.read-our-real-estate-recent-news {
+    padding-top: 200px;
+    color: black;
+}
+
+.read-title {
+    text-align: left;
+}
+
+.option {
+    margin-top: 40px;
+}
+
+.read-title h2 {
+    font-weight: 500;
+    font-size: 45px;
+    text-align: left;
+    color: black;
+    margin-bottom: 0;
+}
+
+.read-title b {
+    font-weight: 600;
+}
+
+.read-our-real-estate-recent-news img {
+    border-radius: 5px;
+    position: relative;
+}
+
+.read-our-real-estate-recent-news .status {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0 5px 5px 0;
+    padding: 5px 15px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.read-our-real-estate-recent-news .status a {
+    color: black;
+    text-decoration: none;
+}
+
+.read-our-real-estate-recent-news .property-julie {
+    font-size: 13px;
+}
+
+.read-our-real-estate-recent-news .property-julie a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.read-our-real-estate-recent-news .property:hover {
+    color: #eb875e;
+}
+
+.read-our-real-estate-recent-news .julie:hover {
+    color: #eb875e;
+}
+
+.read-our-real-estate-recent-news .property-julie {
+    margin: 25px 0 5px 0;
+}
+
+.read-our-real-estate-recent-news .card-text {
+    font-weight: 300;
+    color: #555;
+    margin-top: 20px;
+}
+
+.read-our-real-estate-recent-news .read-more {
+    margin: 30px 0;
+}
+
+.read-our-real-estate-recent-news .read-more a {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* footer */
+
+footer {
+    background-color: #fafafa;
+    margin-top: 80px;
+    padding-top: 50px;
+
+}
+
+.logo-footer {
+    display: block;
+    margin: 0 0 27px;
+}
+
+.logo-footer img {
+    width: 140px;
+    height: 50px;
+}
+
+footer a {
+    color: #555;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer p {
+    color: #555;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer .read-more b {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer .read-more {
+    margin-top: 30px;
+}
+
+footer h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: -8px;
+    margin-bottom: 24px;
+}
+
+footer li {
+    padding-bottom: 10px;
+}
+
+footer .follow-us {
+    font-weight: 500;
+}
+
+.follow .facebook {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.follow .youtube {
+    padding-left: 35px;
+    padding-right: 0;
+}
+
+.follow .twitter {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+@media (max-width:1000px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .has-logo-main img {
+        width: 40px;
+    }
+
+    .logo-main {
+        display: none;
+    }
+
+    .sub-menu {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .has-child>a::after {
+        font-family: "fontawesome";
+        content: "\f105";
+        float: right;
+    }
+
+    .has-child:hover>a::after {
+        font-family: "fontawesome";
+        content: "\f107";
+        float: right;
+    }
+
+    .mobile-logo {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+
+    .mobile-logo i {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .mobile-logo:hover i:first-child {
+        color: #eb875e;
+    }
+
+    #stop-nav-menu {
+        display: none;
+    }
+
+    .slider img {
+        height: 700px;
+        width: auto !important;
+        max-width: none !important;
+    }
+
+    .slider-caption h2 {
+        font-size: 50px;
+        font-weight: 500;
+        z-index: 2;
+        bottom: 10px;
+        color: white;
+        left: 20px;
+        bottom: 80px;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    footer {
+        padding-bottom: 30px;
+    }
+
+    .about-us {
+        padding-top: 90px;
+    }
+
+    .charac {
+        margin-top: 20px;
+    }
+
+    .read-title h2 {
+        font-size: 40px;
+    }
+
+    .expert-1,
+    .expert-2,
+    .expert-3 {
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+
+    .expert-1 {
+        margin-top: 70px;
+    }
+
+    .discover-a-new-way-of-living .title h1 {
+        color: white;
+        font-size: 300%;
+        font-weight: 500;
+        text-align: left;
+        margin-top: 100px;
+    }
+
+    .discover-a-new-way-of-living .title p {
+        color: white;
+        font-size: large;
+        font-weight: 200;
+    }
+
+    body {
+        padding: 0 15px;
+    }
+
+    .choice-title h2 {
+        font-weight: 500;
+        font-size: 43px;
+        text-align: left;
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .browse-more-properties {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .modern-spaces img {
+        box-shadow: unset;
+    }
+
+    .modern-spaces {
+        padding: 60px 0;
+    }
+
+    .modern-title {
+        padding-top: 60px;
+    }
+
+    .work-title {
+        text-align: left;
+        padding: 0 0 18px;
+    }
+
+    .how-it-works .tag {
+        margin-top: 50px;
+    }
+
+    .work-title h2 {
+        font-weight: 500;
+        font-size: 38px;
+        text-align: left;
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .discover-a-new-way-of-living {
+        background-image: url(./images/Discover\ a\ new\ way\ of\ living.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        height: 1000px;
+    }
+
+    .expert-title h2 {
+        font-weight: 500;
+        font-size: 40px;
+        text-align: left;
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .our-expert .icon {
+        display: flex;
+        justify-content: left;
+        padding-left: 0;
+    }
+
+    .our-expert .content {
+        padding-left: 0;
+    }
+
+    .explore-your-home-loan-options img {
+        box-shadow: unset;
+    }
+
+    .explore-your-home-loan-options {
+        padding: 60px 0;
+    }
+
+    .explore-title {
+        padding-top: 30px;
+    }
+
+    footer .other-information {
+        padding: 50px 20px;
+    }
+
+    footer h6 {
+        padding-top: 40px;
+    }
+
+    .copyright {
+        padding-left: 20px;
+    }
+
+    .follow-us {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width:1000px) {
+    .main-menu li {
+        padding-left: 20px;
+    }
+
+    .has-logo-main img {
+        width: 90px;
+    }
+
+    .logo-mobile {
+        display: none;
+    }
+
+    .sub-menu {
+        position: absolute;
+        z-index: 100;
+        background-color: white;
+        width: 250px;
+        top: 35px;
+        left: -13px;
+        text-align: left;
+        padding: 20px 10px 30px 10px;
+    }
+
+    .desktop-menu {
+        padding-left: 60px;
+    }
+
+    .mobile-logo {
+        display: none;
+    }
+
+    .slider-caption h2 {
+        font-size: 75px;
+        font-weight: 500;
+        line-height: 90px;
+        z-index: 1;
+        position: absolute;
+        bottom: 210px;
+        left: 40px;
+        color: white;
+        text-shadow: 0 0 35px rgba(0, 0, 0, .25);
+    }
+
+    .charac-text {
+        padding-right: 100px;
+    }
+
+    .copyright {
+        margin-left: 70px;
+        margin-right: 190px;
+    }
+
+    .about-us {
+        margin-left: 25px;
+    }
+
+    .charac p,
+    .charac h6 {
+        display: inline-block;
+    }
+
+    .read-our-real-estate-recent-news .container {
+        max-width: 1450px;
+    }
+
+    .our-expert .container {
+        max-width: 1450px;
+    }
+
+    .our-expert .info .icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .how-it-works .container {
+        max-width: 1450px;
+    }
+
+    .main-menu {
+        text-align: center;
+    }
+
+    .desktop-menu {
+        padding-bottom: 0px !important;
+    }
+
+    .main-menu>li {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    .expert-1 {
+        padding-top: 90px;
+    }
+
+    .expert-1 img {
+        height: 90%;
+        width: 75%;
+        max-height: 100%;
+        margin-left: 50px;
+    }
+
+    .expert-2 img {
+        margin-top: 55px;
+        border-radius: 5px;
+        width: 85%;
+        margin-left: -40px;
+    }
+
+    .expert-3 img {
+        margin-top: 25px;
+        width: 85%;
+        margin-left: -40px;
+    }
+
+    .our-expert .info {
+        padding-right: 150px;
+        height: 20%;
+    }
+
+    .discover-a-new-way-of-living .title h1 {
+        color: white;
+        font-size: 65px;
+        line-height: 73px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    footer .other-information {
+        padding: 50px 70px;
+        max-width: 100%;
+    }
+
+    .contact-us a:hover {
+        color: #eb875e;
+        text-decoration: none;
+    }
+
+    .categories a:hover {
+        color: black;
+    }
+
+    .links a:hover {
+        color: black;
+    }
+
+    .copyright a {
+        color: #555;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .copyright a:hover {
+        color: #eb875e;
+        text-decoration: none;
+    }
+
+    .copyright .container {
+        padding: 6px 0;
+    }
+
+    .follow {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+
+    .follow .follow-us {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 0;
+    }
+
+    .expert-title h2 {
+        font-weight: 500;
+        font-size: 45px;
+        text-align: left;
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .expert-title {
+        padding-right: 130px;
+    }
+
+    .discover-a-new-way-of-living {
+        background-image: url(./images/Discover\ a\ new\ way\ of\ living.jpg);
+        background-size: cover;
+        background-position: -190px;
+        border-radius: 5px;
+        height: 680px;
+    }
+
+    .discover-a-new-way-of-living .title {
+        margin-top: 235px;
+        margin-left: -130px;
+        margin-right: 130px;
+        padding-right: 100px;
+    }
+
+    .work-title {
+        text-align: left;
+        padding: 0 0 18px;
+        margin-bottom: 40px;
+    }
+
+    .how-it-works .tag {
+        border-right: 1px solid lightgrey;
+        padding-left: 25px;
+    }
+
+    .work-title h2 {
+        font-weight: 500;
+        font-size: 45px;
+        text-align: left;
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .modern-spaces img {
+        box-shadow: -15px 14px 0px 0px rgba(247, 206, 93, 1);
+        -webkit-box-shadow: -15px 14px 0px 0px rgba(247, 206, 93, 1);
+        -moz-box-shadow: -15px 14px 0px 0px rgba(247, 206, 93, 1);
+    }
+
+    .modern-spaces {
+        padding: 80px 40px 80px 0;
+
+    }
+
+    .modern-title {
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .browse-more-properties {
+        display: flex;
+        justify-content: center;
+        padding: 110px 100px;
+    }
+
+    .choice-title h2 {
+        font-weight: 500;
+        font-size: 45px;
+        text-align: left;
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .our-choice .container {
+        max-width: 1450px;
+    }
+
+
+    body {
+        padding: 0 20px;
+    }
+
+    .explore-your-home-loan-options img {
+        box-shadow: -15px 14px 0px 0px rgba(247, 206, 93, 1);
+        -webkit-box-shadow: -15px 14px 0px 0px rgba(247, 206, 93, 1);
+        -moz-box-shadow: -15px 14px 0px 0px rgba(247, 206, 93, 1);
+    }
+
+    .explore-your-home-loan-options {
+        padding: 80px 40px 80px 0;
+
+    }
+
+    .explore-title {
+        padding: 10px;
+        padding-left: 20px;
+    }
+}

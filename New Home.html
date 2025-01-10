@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8"> 
+    <title>NewHome - Real Estate Theme</title>
+    <link rel="icon" href="./images/logo-title.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="go-to-top-container">
+        <button><i class="fa-solid fa-angles-up"></i></button>
+    </div>
+    <header class="desktop-header">
+        <div class="desktop-header">
+            <div class="row">
+                <div class="col-12 col-lg-3 has-logo-main">
+                    <a href="#" class="logo-main"><img src="./images/logo-main.png" alt="logo-main"></a>
+                    <a href="#" class="logo-mobile"><img src="./images/logo-mobile.svg" alt="logo-mobile"></a>
+                    <div class="mobile-logo">
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-solid fa-x" id="stop-nav-menu"></i>
+                        <i class="fa-solid fa-bars" id="show-nav-menu"></i>
+                    </div>
+                </div>
+                <nav class="col-12 col-lg-6 desktop-menu">
+                    <ul class="main-menu">
+                        <li class="home"><a href="#">HOME</a></li>
+                        <li class="has-child pages">
+                            <a href="#">PAGES</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">ABOUT US</a></li>
+                                <li><a href="#">PRICING PACKAGES <sup><i class="fa-solid fa-star"></i></sup></a></li>
+                                <li><a href="#">OUR TEAM</a></li>
+                                <li><a href="#">FAQ PAGE</a></li>
+                                <li><a href="#">CONTACT US</a></li>
+                                <li><a href="#">GET IN TOUCH</a></li>
+                                <li><a href="#">404 ERROR PAGE</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-child property"><a href="#">PROPERTY</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">LIST TYPES</a></li>
+                                <li><a href="#">LIST LAYOUTS</a></li>
+                                <li><a href="#">SINGLE TYPES</a></li>
+                                <li><a href="#">REAL ESTATE</a></li>
+                            </ul>
+                        </li>
+                        <li class="blog"><a href="#">BLOG</a></li>
+                    </ul>
+                </nav>
+                <div class="col-12 col-lg-3 login">
+                    <div class="join">
+                        <i class="fa-solid fa-user"></i><a href="#">JOIN US</a>
+                    </div>
+                    <div class="add">
+                        <i class="fa-solid fa-plus"></i> <a href="#">ADD PROPERTY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/Slider 1.jpg" class="d-block w-100" alt="Slider 1">
+                        <div class="title-slider">
+                            <div class="slider-caption">
+                                <h2>Buy or rent properties
+                                    <br>
+                                    with
+                                    <b>no commission</b>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Slider 2.jpg" class="d-block w-100" alt="Slider 2">
+                        <div class="title-slider">
+                            <div class="slider-caption">
+                                <h2>Buy or rent properties
+                                    <br>
+                                    with
+                                    <b>no commission</b>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="our-choice">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="choice-title">
+                            <h2>Our choice of
+                                <br>
+                                popular <b>real estate</b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-4 option">
+                        <a href="#"><img src="./images/Our choice - South Sun House.jpg" class="card-img-top"
+                                alt="Our choice - South Sun House"></a>
+                        <div class="status"><a href="#">Sell</a></div>
+                        <div class="map">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#" class="villas">VILLAS</a>
+                            -
+                            <a href="#" class="brooklyn">Brooklyn</a>
+                        </div>
+                        <h3 class="card-title"><a href="#">South Sun House</a></h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem
+                            admodum</p>
+                        <div class="has-hr">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-6 price">
+                                <h4>265,000$</h4>
+                            </div>
+                            <div class="col-6 col-lg-6 info">
+                                <p>
+                                    <i class="fa-solid fa-vector-square"></i>
+                                    <b>290m<sup>2</sup></b>
+                                    <i class="fa-solid fa-bed"></i>
+                                    <b>4</b>
+                                    <i class="fa-solid fa-bath"></i><b>3</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 option">
+                        <a href="#"> <img src="./images/Our choice - Mountain Cabin.jpg" class="card-img-top"
+                                alt="Our choice - Mountain Cabin"></a>
+                        <div class="status"><a href="#">For Rent</a></div>
+                        <div class="map">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#" class="villas">VILLAS</a>
+                            -
+                            <a href="#" class="brooklyn">Brooklyn</a>
+                        </div>
+                        <h3 class="card-title"><a href="#">Mountain Cabin</a></h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem
+                            admodum</p>
+                        <div class="has-hr">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-6 price">
+                                <h4>89,000$</h4>
+                            </div>
+                            <div class="col-6 col-lg-6 info">
+                                <p>
+                                    <i class="fa-solid fa-vector-square"></i>
+                                    <b>125m<sup>2</sup></b>
+                                    <i class="fa-solid fa-bed"></i>
+                                    <b>2</b>
+                                    <i class="fa-solid fa-bath"></i><b>2</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 option">
+                        <a href="#"><img src="./images/Our choice - 3.jpg" class="card-img-top"
+                                alt="Our choice - 3"></a>
+                        <div class="status"><a href="#">For Rent</a></div>
+                        <div class="map">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#" class="condos">CONDOS</a>
+                            -
+                            <a href="#" class="staten">Staten Island</a>
+                        </div>
+                        <h3 class="card-title"><a href="#">Pine Forest Bungalow</a></h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem
+                            admodum</p>
+                        <div class="has-hr">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-6 price">
+                                <h4>1,200$</h4>
+                            </div>
+                            <div class="col-6 col-lg-6 info">
+                                <p>
+                                    <i class="fa-solid fa-vector-square"></i>
+                                    <b>160m<sup>2</sup></b>
+                                    <i class="fa-solid fa-bed"></i>
+                                    <b>4</b>
+                                    <i class="fa-solid fa-bath"></i><b>2</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="browse-more-properties">
+                    <button type="button">
+                        <a href="#">Browse More Properties</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="modern-spaces">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7 modern-img">
+                        <img src="./images/Modern spaces and premium design.jpg" alt="Modern spaces and premium design">
+                    </div>
+                    <div class="col-12 col-lg-5 modern-title">
+                        <h2>Modern spaces and
+                            <br>
+                            <b>premium</b> design
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, minimum inimicus quo no, at vix primis viderere vituperatoribus.
+                            In corpora argumentum.</p>
+                        <p>
+                            - Mea omnium explicari
+                            <br>
+                            - His no legere feugaitoer
+                            <br>
+                            - illum idquem
+                        </p>
+                        <button type="button"><a href="#">Search Property</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how-it-works">
+            <div class="container">
+                <div class="work-title">
+                    <h2>How It works?
+                        <br>
+                        Find a <b>perfect home</b>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-3 tag">
+                        <i class="fa-solid fa-house-laptop"></i>
+                        <h4>Find real estate</h4>
+                        <p>Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco quod suavitate vix.</p>
+                    </div>
+                    <div class="col-12 col-lg-3 tag">
+                        <i class="fa-solid fa-house-chimney-window"></i>
+                        <h4>Meet relator</h4>
+                        <p>Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco quod suavitate vix.</p>
+                    </div>
+                    <div class="col-12 col-lg-3 tag">
+                        <i class="fa-regular fa-file-lines"></i>
+                        <h4>Documents</h4>
+                        <p>Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco quod suavitate vix.</p>
+                    </div>
+                    <div class="col-12 col-lg-3 tag">
+                        <i class="fa-solid fa-key"></i>
+                        <h4>Take the keys</h4>
+                        <p>Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco quod suavitate vix.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="discover-a-new-way-of-living">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7 title">
+                        <h1>Discover a new <br>way of living
+                        </h1>
+                        <p>* Feugait scriptorem qui ea, quo admodum eloquentiam eu. Te malis tibique eum. Ne magna assum
+                            everti.</p>
+                    </div>
+                    <div class="col-12 col-lg-5 make-an-enquiry">
+                        <form action="" method="post">
+                            <h2>Make an enquiry</h2>
+                            <p>Save your time and easily rent or sell your property with the lowest commission on the
+                                real
+                                estate market.</p>
+                            <input type="text" name="YourName" placeholder="Your name*" required>
+                            <input type="email" name="YourEmail" placeholder="Your email*" required>
+                            <input type="tel" name="YourPhoneNumber" placeholder="Your phone number*" required>
+                            <button type="button">Make an enquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-expert">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="expert-title">
+                            <h2>Our expert will help you
+                                make <b>the renovation</b>
+                            </h2>
+                        </div>
+                        <div class="row info">
+                            <div class="col-2 col-lg-2 icon">
+                                <i class="fa-solid fa-desktop"></i>
+                            </div>
+                            <div class="col-10 col-lg-10 content">
+                                <h4>Find inspiration</h4>
+                                <p>Sumo petentium ut per, at his wisim utinam adipis cing. Est e graeco quod
+                                    suavitate
+                                    vix ad praesent.</p>
+                            </div>
+                        </div>
+                        <div class="row info">
+                            <div class="col-2 col-lg-2 icon">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </div>
+                            <div class="col-10 col-lg-10 content">
+                                <h4>Find architect/designer</h4>
+                                <p>Sumo petentium ut per, at his wisim utinam adipis cing. Est e graeco quod
+                                    suavitate
+                                    vix ad praesent.</p>
+                            </div>
+                        </div>
+                        <div class="row info">
+                            <div class="col-2 col-lg-2 icon">
+                                <i class="fa-solid fa-paint-roller"></i>
+                            </div>
+                            <div class="col-10 col-lg-10 content">
+                                <h4>Begin renovation</h4>
+                                <p>Sumo petentium ut per, at his wisim utinam adipis cing. Est e graeco quod
+                                    suavitate
+                                    vix ad praesent.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 expert-1">
+                        <img src="./images/expert 1.jpeg" alt="expert 1">
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 expert-2">
+                                <div class="expert2-img">
+                                    <img src="./images/expert 2.jpeg" alt="expert 2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-12 expert-3">
+                                <div class="expert3-img">
+                                    <img src="./images/expert 3.jpeg" alt="expert 3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="explore-your-home-loan-options">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7 explore-img">
+                        <img src="./images/Explore your home loan options.jpg" alt="Explore your home loan options">
+                    </div>
+                    <div class="col-12 col-lg-5 explore-title">
+                        <h2>Explore your home
+                            <br>
+                            <b>loan options</b>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, minimum inimicus quo no, at vix primis viderere vituperatoribus.
+                            In corpora argumentum. Vix ferri dicam contentiones ne, ex appetere salutatus</p>
+                        <button type="button"><a href="#">Search Property</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 about-us-title">
+                    <h1>See what other said <b>about us</b></h1>
+                </div>
+            </div>
+            <div class="row about-us-infor">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators about-us-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 each-charac">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-lg-2 each-charac-img">
+                                            <img src="./images/Say about us - 1.png" alt="say1">
+                                        </div>
+                                        <div class="col-sm-10 col-lg-10 each-charac-title">
+                                            <div class="charac">
+                                                <h6>Ellie Holmes</h6>
+                                                <p>Sales Advisor</p>
+                                            </div>
+                                            <div class="charac-text">
+                                                "Ut vix primis tractatos. Ad est alterum epicuri accusamus. Duo per
+                                                id his qualisque
+                                                deseruisse reformidans ex, quo omnesque cotidieque. Dolor voluptua
+                                                per, his in
+                                                congue."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-6 each-charac">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-lg-2 each-charac-img">
+                                            <img src="./images/Say about us 2.png" alt="say1">
+                                        </div>
+                                        <div class="col-sm-10 col-lg-10 each-charac-title">
+                                            <div class="charac">
+                                                <h6>Tiana Ray Home</h6>
+                                                <p>Inspector</p>
+                                            </div>
+                                            <div class="charac-text">
+                                                "Ut vix primis tractatos. Ad est alterum epicuri accusamus. Duo per
+                                                id his qualisque
+                                                deseruisse reformidans ex, quo omnesque cotidieque. Dolor voluptua
+                                                per, his in
+                                                congue."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 each-charac">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-lg-2 each-charac-img">
+                                            <img src="./images/Say about us 3.png" alt="say1">
+                                        </div>
+                                        <div class="col-sm-10 col-lg-10 each-charac-title">
+                                            <div class="charac">
+                                                <h6>Kevin Wels</h6>
+                                                <p>Manager</p>
+                                            </div>
+                                            <div class="charac-text">
+                                                "Ut vix primis tractatos. Ad est alterum epicuri accusamus. Duo per
+                                                id his qualisque
+                                                deseruisse reformidans ex, quo omnesque cotidieque. Dolor voluptua
+                                                per, his in
+                                                congue."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-6 each-charac">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-lg-2 each-charac-img">
+                                            <img src="./images/Say about us 4.png" alt="say1">
+                                        </div>
+                                        <div class="col-sm-10 col-lg-10 each-charac-title">
+                                            <div class="charac">
+                                                <h6>Chase Wales</h6>
+                                                <p>Agent</p>
+                                            </div>
+                                            <div class="charac-text">
+                                                "Ut vix primis tractatos. Ad est alterum epicuri accusamus. Duo per
+                                                id his qualisque
+                                                deseruisse reformidans ex, quo omnesque cotidieque. Dolor voluptua
+                                                per, his in
+                                                congue."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 each-charac">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-lg-2 each-charac-img">
+                                            <img src="./images/Say about us - 1.png" alt="say1">
+                                        </div>
+                                        <div class="col-sm-10 col-lg-10 each-charac-title">
+                                            <div class="charac">
+                                                <h6>Aida Rutta</h6>
+                                                <p>Home Inspector</p>
+                                            </div>
+                                            <div class="charac-text">
+                                                "Ut vix primis tractatos. Ad est alterum epicuri accusamus. Duo per
+                                                id his qualisque
+                                                deseruisse reformidans ex, quo omnesque cotidieque. Dolor voluptua
+                                                per, his in
+                                                congue."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-6 each-charac">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-lg-2 each-charac-img">
+                                            <img src="./images/Say about us 2.png" alt="say1">
+                                        </div>
+                                        <div class="col-sm-10 col-lg-10 each-charac-title">
+                                            <div class="charac">
+                                                <h6>Tiana Ray Home</h6>
+                                                <p>Inspector</p>
+                                            </div>
+                                            <div class="charac-text">
+                                                "Ut vix primis tractatos. Ad est alterum epicuri accusamus. Duo per
+                                                id his qualisque
+                                                deseruisse reformidans ex, quo omnesque cotidieque. Dolor voluptua
+                                                per, his in
+                                                congue."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 each-charac">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-lg-2 each-charac-img">
+                                            <img src="./images/Say about us 3.png" alt="say1">
+                                        </div>
+                                        <div class="col-sm-10 col-lg-10 each-charac-title">
+                                            <div class="charac">
+                                                <h6>Kevin Wels</h6>
+                                                <p>Manager</p>
+                                            </div>
+                                            <div class="charac-text">
+                                                "Ut vix primis tractatos. Ad est alterum epicuri accusamus. Duo per
+                                                id his qualisque
+                                                deseruisse reformidans ex, quo omnesque cotidieque. Dolor voluptua
+                                                per, his in
+                                                congue."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-6 each-charac">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-lg-2 each-charac-img">
+                                            <img src="./images/Say about us 4.png" alt="say1">
+                                        </div>
+                                        <div class="col-sm-10 col-lg-10 each-charac-title">
+                                            <div class="charac">
+                                                <h6>Chase Wales</h6>
+                                                <p>Agent</p>
+                                            </div>
+                                            <div class="charac-text">
+                                                "Ut vix primis tractatos. Ad est alterum epicuri accusamus. Duo per
+                                                id his qualisque
+                                                deseruisse reformidans ex, quo omnesque cotidieque. Dolor voluptua
+                                                per, his in
+                                                congue."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="read-our-real-estate-recent-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-12">
+                        <div class="read-title">
+                            <h2>Read our real
+                                <br>
+                                estate <b>recent news</b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-4 option">
+                        <a href="#"> <img src="./images/News 1.jpg" class="card-img-top" alt="News 1"></a>
+                        <div class="status"><a href="#">13. MARCH 2023</a></div>
+                        <div class="property-julie">
+                            <a href="#" class="property">PROPERTY</a>
+                            - By
+                            <a href="#" class="julie">Julie Coleman</a>
+                        </div>
+                        <h3 class="card-title"><a href="#">How to Find a Good Real Estate Agent</a></h3>
+                        <p class="card-text">Ea cibo choro eos, in duo iudico eirmod. Qui modus meliore ex, has in
+                            decore virtute repudiare. An summo persequeris contentiones nec, ex sit modus</p>
+                        <div class="row">
+                            <div class="col-13 col-lg-12 read-more">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 option">
+                        <a href="#"><img src="./images/News 2.jpg" class="card-img-top" alt="News 2"></a>
+                        <div class="status"><a href="#">13. MARCH 2023</a></div>
+                        <div class="property-julie">
+                            <a href="#" class="property">PROPERTY</a>
+                            - By
+                            <a href="#" class="julie">Julie Coleman</a>
+                        </div>
+                        <h3 class="card-title"><a href="#">15 Ways to Negotiate Your Lease Price</a></h3>
+                        <p class="card-text">Ea cibo choro eos, in duo iudico eirmod. Qui modus meliore ex, has in
+                            decore virtute repudiare. An summo persequeris contentiones nec, ex sit modus</p>
+                        <div class="row">
+                            <div class="col-13 col-lg-12 read-more">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 option">
+                        <a href="#"><img src="./images/News 3.jpg" class="card-img-top" alt="News 3"></a>
+                        <div class="status"><a href="#">13. MARCH 2023</a></div>
+                        <div class="property-julie">
+                            <a href="#" class="property">PROPERTY</a>
+                            - By
+                            <a href="#" class="julie">Julie Coleman</a>
+                        </div>
+                        <h3 class="card-title"><a href="#">Houses Designed by Interior Experts</a></h3>
+                        <p class="card-text">Ea cibo choro eos, in duo iudico eirmod. Qui modus meliore ex, has in
+                            decore virtute repudiare. An summo persequeris contentiones nec, ex sit modus</p>
+                        <div class="row">
+                            <div class="col-13 col-lg-12 read-more">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container other-information">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="logo-footer">
+                        <a href="#"><img src="./images/logo-footer.png" alt="logo-footer" loading="lazy"></a>
+                    </div>
+                    <p>A contemporary theme we designed specifically for real estate and property showcase websites,
+                        equipped
+                        with every option, element and feature your site may need.
+                    </p>
+                    <div class="read-more">
+                        <a href="#"><b>Read More</b></a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-3 option">
+                    <h6>Contact us</h6>
+                    <ul class="contact-us">
+                        <li><a href="#">Staten Island, NY 10314, USA</a></li>
+                        <li><a href="#">+111 222 369 45</a></li>
+                        <li><a href="#">+123 456 789 11</a></li>
+                        <li><a href="#">newhome@example.com</a></li>
+                </div>
+                <div class="col-12 col-lg-3 option">
+                    <h6>Categories</h6>
+                    <ul class="categories">
+                        <li><a href="#">Recent property</a></li>
+                        <li><a href="#">To Sell</a></li>
+                        <li><a href="#">To Buy</a></li>
+                        <li><a href="#">To Rent</a></li>
+                </div>
+                <div class="col-12 col-lg-2 option">
+                    <h6>Links</h6>
+                    <ul class="links">
+                        <li><a href="#">Latest News</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ Page</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div class="copyright">
+            <div class="row">
+                <div class="col-12 col-lg-6 qode">
+                    <p>&copy; 2023 <a href="#">Qode Interactive</a>, All Rights Reserved</p>
+                </div>
+                <div class="col-12 col-lg-6 follow ">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 follow-us">Follow us:</div>
+                        <div class="col-3 col-lg-2 instagram"><a href="#">Instagram</a></div>
+                        <div class="col-3 col-lg-2 facebook"><a href="#">Facebook</a></div>
+                        <div class="col-3 col-lg-2 youtube"><a href="#">Youtube</a></div>
+                        <div class="col-3 col-lg-2 twitter"><a href="#">Twitter</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $("#show-nav-menu").click(function () {
+            $(".desktop-menu").show();
+            $(this).hide();
+            $("#stop-nav-menu").show();
+        });
+        $("#stop-nav-menu").click(function () {
+            $(".desktop-menu").hide();
+            $(this).hide();
+            $("#show-nav-menu").show();
+        });
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $(".go-to-top-container").fadeIn();
+            } else {
+                $(".go-to-top-container").fadeOut();
+            }
+        });
+
+        $(".go-to-top-container").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 1000);
+        });
+    </script>
+</body>
+
+</html>
