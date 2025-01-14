@@ -22,7 +22,7 @@ This repository is the **final project** for the Web Programming course. It is a
 ## 🌟 Preview
 
 ### Homepage
-![Homepage Preview]()
+![Homepage Preview](screenCapture/homepage.png)
 
 ### Property Listings
 ![Property Listings](screenCapture/property.png)
