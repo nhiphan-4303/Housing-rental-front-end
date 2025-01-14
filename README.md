@@ -22,7 +22,7 @@ This repository is the **final project** for the Web Programming course. It is a
 ## 🌟 Preview
 
 ### Homepage
-![Homepage Preview](screenCapture/homepage.png)
+![Homepage Preview]()
 
 ### Property Listings
 ![Property Listings](screenCapture/property.png)
@@ -33,7 +33,6 @@ This repository is the **final project** for the Web Programming course. It is a
 ## 📂 Project Structure
 
 ```
-.
 ├── images/          # Contains all the image assets
 ├── style.css        # CSS styles for the project
 ├── New Home.html    # Main HTML file of the project
