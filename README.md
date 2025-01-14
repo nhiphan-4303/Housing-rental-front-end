@@ -27,8 +27,8 @@ This repository is the **final project** for the Web Programming course. It is a
 ### Property Listings
 ![Property Listings](screenCapture/property.png)
 
-### Inquiry Form
-![Inquiry Form](screenCapture/enquiry.png)
+### Enquiry Form
+![Enquiry Form](screenCapture/enquiry.png)
 
 ## 📂 Project Structure
 
